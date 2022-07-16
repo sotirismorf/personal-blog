@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Why Vim is the Greatest Text Editor",
+    "categories": ["blog"],
+    "id":"1",
+    "date": "2022-6-20",
+    "fmedia":"1",
+    "body": "Χρησιμοποιώντας Markdown, μπορούμε να γράφουμε σε **bold** και σε *italics*. \n\n Επίσης, μπορούμε να αλλάζουμε παραγράφους",
+    "slug":"vim-good"
+  },
+  {
+    "title": "Why Svelte is the greatest web framework right now",
+    "categories": ["blog"],
+    "id":"2",
+    "date": "2022-6-21",
+    "fmedia":"1",
+    "body": "Λσκξτεκλξ σδφλκσξδ φσλκδξφ σσφσξδφλκσ δξφσλκδφσ ξδφλκσ δφ σφσδλφκξσδ φλσκδφξσδ λφκσδξφ σδλκφξσ φσδλκφξσ δφλκσδξφξξ",
+    "slug":"svelte-good"
+  },
+  {
+    "title": "THMMY, a self-organised community forum",
+    "categories": ["blog"],
+    "id":"3",
+    "date": "2022-7-16",
+    "fmedia":"1",
+    "body": "Λσκξτεκλξ σδφλκσξδ φσλκδξφ σσφσξδφλκσ δξφσλκδφσ ξδφλκσ δφ σφσδλφκξσδ φλσκδφξσδ λφκσδξφ σδλκφξσ φσδλκφξσ δφλκσδξφξξ",
+    "slug":"thmmy"
+  }
+]
