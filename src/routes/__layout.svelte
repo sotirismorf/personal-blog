@@ -8,12 +8,12 @@
 	>
 </nav>
 
-<div class="max-w-2xl mx-auto">
+<div class="max-w-2xl mx-auto pl-3 pr-3">
 	<slot />
 </div>
 
 <footer class="py-4">
-	<p class="text-center">© 2021 Sotiris Morfakidis</p>
+	<p class="text-center">© 2022 Sotiris Morfakidis</p>
 </footer>
 
 <style>

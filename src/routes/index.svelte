@@ -9,35 +9,35 @@
 </svelte:head>
 
 <Card>
-	<div>
-		<AsciiArt />
-		<div class="float-right -translate-y-72">
-			<h1 class="text-6xl my-6">Welcome :)</h1>
-			<h2 class="text-2xl">
-				Check out my
-				<div class="inline">
-				<a 
-					class="underline font-bold
-					text-transparent bg-clip-text 
-					bg-gradient-to-tr from-orange to-green
-					hover:italic"
-					href="/about">portfolio
+	<AsciiArt />
+	<div class="sm:float-right sm:-translate-y-72">
+		<h1 class="text-6xl sm:mt-6 mb-6">Welcome :)</h1>
+		<h2 class="text-2xl sm:active:bg-orange">
+			Check out my
+			<div class="inline">
+			<a 
+				class="underline font-bold
+				text-transparent bg-clip-text 
+				bg-gradient-to-tr from-orange to-green
+				active:italic
+				sm:hover:italic"
+				href="/about">portfolio
 
-				</a>
-				</div>
-			</h2>
-			<h2 class="text-2xl">
-				...or one of my
-				<a 
-					class="underline font-bold
-					text-transparent bg-clip-text 
-					bg-gradient-to-tr from-orange to-green
-					hover:italic"
-					href="/articles">articles
+			</a>
+			</div>
+		</h2>
+		<h2 class="text-2xl">
+			...or one of my
+			<a 
+				class="underline font-bold
+				text-transparent bg-clip-text 
+				bg-gradient-to-tr from-orange to-green
+				active:italic
+				sm:hover:italic"
+				href="/articles">articles
 
-				</a>
-			</h2>
-		</div>
+			</a>
+		</h2>
 	</div>
 </Card>
 
