@@ -1,0 +1,26 @@
+backend:
+  name: proxy
+  proxy_url: http://localhost:8081/api/v1
+
+local_backend: true
+
+media_folder: 'static/images' # Media files will be stored in the repo under public/images/uploads
+public_folder: '/images' # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    label_singular: 'Post'
+    folder: 'content/blog'
+    create: true
+    slug: '{{slug}}'
+    preview_path: 'blog/{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Featured Image',
+          name: 'thumbnail',
+          widget: 'image',
+          required: false,
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

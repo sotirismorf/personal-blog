@@ -1,7 +1,9 @@
 <script lang="ts">
 	import Card from "$lib/Card.svelte";
 	import AsciiArt from "$lib/AsciiArt.svelte";
-	import articles from "../articles/data.json";
+	//import articles from "../articles/data.json";
+
+	export let posts: App.blogPost[];
 </script>
 
 <svelte:head>
@@ -45,7 +47,7 @@
 	Recent Stuff
 </h3>
 
-{#each articles as item}
+{#each posts as item}
 	<Card>
 		<p class="text-2xl">
 			<a class="hover:underline" href="/article/{item.slug}"
